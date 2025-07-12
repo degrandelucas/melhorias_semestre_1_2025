@@ -1,19 +1,19 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      <MelhoriasIgreja/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MelhoriasIgreja from './components/MelhoriasIgreja.vue'
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    MelhoriasIgreja,
   },
 
   data: () => ({
